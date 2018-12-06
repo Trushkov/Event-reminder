@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+
+<BorderPane id="pane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
+    <center>
+        <Label id="event" fx:id="event" wrapText="true" textFill="darkviolet" text="" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets top="50.0" />
+            </BorderPane.margin></Label>
+    </center>
+    <bottom>
+        <AnchorPane fx:id="layout" prefHeight="60.0" prefWidth="200.0" BorderPane.alignment="BOTTOM_LEFT">
+            <children>
+                <Label fx:id="date"  textFill="darkviolet" layoutX="530.0" layoutY="170.0" text="" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="30.0" />
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>
